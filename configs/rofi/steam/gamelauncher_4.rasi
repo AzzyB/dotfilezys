@@ -13,10 +13,7 @@ configuration {
 window {
     enabled:                     true;
     fullscreen:                  false;
-    width:                       20%;
-    height:                      100%;
-    location:                    west;
-    x-offset:                    10%;
+    width:                       100%;
     transparency:                "real";
     cursor:                      "default";
     spacing:                     0px;
@@ -36,9 +33,10 @@ mainbox {
 // Lists //
 listview {
     enabled:                     true;
-    columns:                     1;
-    spacing:                     17px;
-    padding:                     10px 20px 10px 20px;
+    columns:                     10;
+    lines:                       1;
+    spacing:                     30px;
+    padding:                     40px 100px 40px 100px;
     cycle:                       true;
     dynamic:                     false;
     scrollbar:                   false;
@@ -55,9 +53,9 @@ listview {
 // Elements //
 element {
     enabled:                     true;
-    orientation:                 horizontal;
+    orientation:                 vertical;
     spacing:                     0px;
-    padding:                     0px;
+    padding:                     5px;
     border-radius:               0px;
     cursor:                      pointer;
     background-color:            transparent;
@@ -68,7 +66,7 @@ element selected.normal {
     text-color:                  @select-fg;
 }
 element-icon {
-    size:                        15%;
+    size:                        30%;
     spacing:                     0px;
     padding:                     0px;
     cursor:                      inherit;
@@ -77,11 +75,10 @@ element-icon {
     text-color:                  inherit;
 }
 element-text {
-    enabled:                     true;
     vertical-align:              0.5;
-    horizontal-align:            0;
+    horizontal-align:            0.5;
     spacing:                     0px;
-    padding:                     0px;
+    padding:                     10px;
     cursor:                      inherit;
     background-color:            transparent;
     text-color:                  inherit;
