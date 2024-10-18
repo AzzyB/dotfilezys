@@ -1,8 +1,10 @@
-# HyprArch
+# Dotfilezy's
+## Azzy's misc dotfiles for arch linux
 
-![image](https://github.com/AzzyB/hyprarchy/blob/main/screenshot.png)
+![image](https://github.com/AzzyB/hyprarchy/blob/main/arch.png)
 
-## UNDER REVISION
-"In other words don't use the dots"
+### HyprlandWM (Desktop Environment)
+* 
 
-Azzy's Hyprland WM dotfiles for arch linux
+### AwesomeWM (Laptop Environment)
+* 
