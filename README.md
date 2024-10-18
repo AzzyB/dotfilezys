@@ -1,7 +1,10 @@
 # Dotfilezy's
 ## Azzy's misc dotfiles for arch linux
 
-![image](https://github.com/AzzyB/hyprarchy/blob/main/screenshots/arch.png)
+
+<p align="center">
+  <img src="https://github.com/AzzyB/hyprarchy/blob/main/screenshots/arch.png" />
+</p>
 
 ### HyprlandWM (Desktop Environment)
 * 
