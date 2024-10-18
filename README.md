@@ -1,6 +1,6 @@
 # HyprArch
 
 ## UNDER REVISION
-"In other words use the dots at your own risk"
+"In other words don't use the dots"
 
 Azzy's Hyprland WM dotfiles for arch linux
