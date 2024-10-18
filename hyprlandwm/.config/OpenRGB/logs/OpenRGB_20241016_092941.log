@@ -1,0 +1,67 @@
+    OpenRGB v0.9
+    Commit:  from 
+    Launched: 20241016_092941
+====================================================================================================
+
+0     |Info:    Found file: frost.orp attempting to validate header
+0     |Info:    Valid v4 profile found for frost
+1003  |Info:    ------------------------------------------------------
+1003  |Info:    |               Start device detection               |
+1003  |Info:    ------------------------------------------------------
+1004  |Info:    Initializing HID interfaces: Success
+1014  |Info:    ------------------------------------------------------
+1014  |Info:    |             Detecting I2C interfaces               |
+1014  |Info:    ------------------------------------------------------
+1016  |Info:    Registering I2C interface: /dev/i2c-3 Device 10DE:2488 Subsystem: 196E:138A
+1016  |Info:    Registering I2C interface: /dev/i2c-1 Device 10DE:2488 Subsystem: 196E:138A
+1016  |Info:    Registering I2C interface: /dev/i2c-4 Device 10DE:2488 Subsystem: 196E:138A
+1016  |Info:    Registering I2C interface: /dev/i2c-2 Device 10DE:2488 Subsystem: 196E:138A
+1016  |Info:    Registering I2C interface: /dev/i2c-0 Device 8086:A323 Subsystem: 1458:5001
+1016  |Info:    Registering I2C interface: /dev/i2c-5 Device 10DE:2488 Subsystem: 196E:138A
+1016  |Info:    ------------------------------------------------------
+1016  |Info:    |               Detecting I2C devices                |
+1016  |Info:    ------------------------------------------------------
+1249  |Info:    [ENE DRAM] Registering RGB controller
+1425  |Info:    [ENE DRAM] Registering RGB controller
+1730  |Info:    ------------------------------------------------------
+1731  |Info:    |               Detecting I2C PCI devices            |
+1731  |Info:    ------------------------------------------------------
+1731  |Info:    [PNY XLR8 Revel EPIC-X RTX 3070 LHR] Registering RGB controller
+1736  |Info:    ------------------------------------------------------
+1736  |Info:    |               Detecting HID devices                |
+1736  |Info:    ------------------------------------------------------
+1754  |Info:    [KLM] Created new Full 104 key ANSI QWERTY with 6 rows and 21 columns containing 104 keys
+1754  |Info:    [Razer Huntsman Elite] Registering RGB controller
+1916  |Info:    [Z390 AORUS ULTRA-CF] Registering RGB controller
+2135  |Info:    [Razer Basilisk V3 Pro (Wireless)] Registering RGB controller
+2135  |Info:    ------------------------------------------------------
+2135  |Info:    |            Detecting libusb HID devices            |
+2135  |Info:    ------------------------------------------------------
+2179  |Info:    [HyperX Quadcast S] Registering RGB controller
+2179  |Info:    ------------------------------------------------------
+2179  |Info:    |              Detecting other devices               |
+2179  |Info:    ------------------------------------------------------
+2188  |Info:    ------------------------------------------------------
+2188  |Info:    |                Detection completed                 |
+2188  |Info:    ------------------------------------------------------
+3275  |Info:    Profile loading: Succeeded for ENE DRAM @ I2C: /dev/i2c-0, address 0x71
+3275  |Info:    Profile loading: Succeeded for ENE DRAM @ I2C: /dev/i2c-0, address 0x73
+3275  |Info:    Profile loading: Succeeded for PNY XLR8 Revel EPIC-X RTX 3070 LHR @ I2C: /dev/i2c-1, address 0x49
+3275  |Info:    Profile loading: Succeeded for Razer Huntsman Elite @ HID: /dev/hidraw6
+3275  |Info:    Profile loading: Succeeded for Z390 AORUS ULTRA-CF @ HID: /dev/hidraw3
+3275  |Info:    Profile loading: FAILED! for Razer Basilisk V3 Pro (Wireless) @ HID: /dev/hidraw0
+3275  |Info:    Profile loading: Succeeded for HyperX Quadcast S @ 1-11.3.4:1.0
+9646  |Info:    Profile loading: Succeeded for ENE DRAM @ I2C: /dev/i2c-0, address 0x71
+9646  |Info:    Profile loading: Succeeded for ENE DRAM @ I2C: /dev/i2c-0, address 0x73
+9646  |Info:    Profile loading: Succeeded for PNY XLR8 Revel EPIC-X RTX 3070 LHR @ I2C: /dev/i2c-1, address 0x49
+9646  |Info:    Profile loading: Succeeded for Razer Huntsman Elite @ HID: /dev/hidraw6
+9646  |Info:    Profile loading: Succeeded for Z390 AORUS ULTRA-CF @ HID: /dev/hidraw3
+9646  |Info:    Profile loading: FAILED! for Razer Basilisk V3 Pro (Wireless) @ HID: /dev/hidraw0
+9646  |Info:    Profile loading: Succeeded for HyperX Quadcast S @ 1-11.3.4:1.0
+9907  |Info:    Profile loading: Succeeded for ENE DRAM @ I2C: /dev/i2c-0, address 0x71
+9907  |Info:    Profile loading: Succeeded for ENE DRAM @ I2C: /dev/i2c-0, address 0x73
+9907  |Info:    Profile loading: Succeeded for PNY XLR8 Revel EPIC-X RTX 3070 LHR @ I2C: /dev/i2c-1, address 0x49
+9907  |Info:    Profile loading: Succeeded for Razer Huntsman Elite @ HID: /dev/hidraw6
+9907  |Info:    Profile loading: Succeeded for Z390 AORUS ULTRA-CF @ HID: /dev/hidraw3
+9907  |Info:    Profile loading: FAILED! for Razer Basilisk V3 Pro (Wireless) @ HID: /dev/hidraw0
+9907  |Info:    Profile loading: Succeeded for HyperX Quadcast S @ 1-11.3.4:1.0
